@@ -1,0 +1,9 @@
+{
+  "domain": "sdui_timetable_card",
+  "name": "SDUI Timetable Card",
+  "documentation": "https://github.com/ToperGamesYT/ha-sdui-card",
+  "dependencies": [],
+  "codeowners": ["@ToperGamesYT"],
+  "requirements": [],
+  "version": "1.0.0"
+}
