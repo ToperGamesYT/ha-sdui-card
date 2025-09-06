@@ -1,8 +1,7 @@
 # SDUI Timetable Card
-
 ![Home Assistant](https://img.shields.io/badge/Home%20Assistant-Custom%20Card-blue)
 ![HACS Custom](https://img.shields.io/badge/HACS-Custom-orange)
-
+![Logo](/logo.png)
 A custom Lovelace card for Home Assistant to display school schedules from the [`sdui_timetable`](https://github.com/ToperGamesYT/sdui_timetable) integration.
 
 ---
@@ -30,6 +29,7 @@ A custom Lovelace card for Home Assistant to display school schedules from the [
 ```yaml
 url: /hacsfiles/ha-sdui-card/sdui-card.js
 type: module
+```
 
 
 ## Usage
@@ -37,3 +37,4 @@ Example card configuration in ui-lovelace.yaml:
 ```yaml
 type: custom:sdui-timetable-card
 entity: sensor.sdui_timetable
+```
