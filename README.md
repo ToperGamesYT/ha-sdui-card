@@ -30,3 +30,10 @@ A custom Lovelace card for Home Assistant to display school schedules from the [
 ```yaml
 url: /hacsfiles/ha-sdui-card/sdui-card.js
 type: module
+
+
+## Usage
+Example card configuration in ui-lovelace.yaml:
+```yaml
+type: custom:sdui-timetable-card
+entity: sensor.sdui_timetable
